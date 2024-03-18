@@ -10,9 +10,9 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
   s.homepage     = "https://github.com/iOSDevLog/ijkplayer"
 
   s.license      = { :type => "GNU Lesser General Public License v2.1", :text => <<-LICENSE
-		   GNU LESSER GENERAL PUBLIC LICENSE
-		   Version 2.1, February 1999
-		   https://github.com/iOSDevLog/ijkplayer/raw/master/LICENSE
+       GNU LESSER GENERAL PUBLIC LICENSE
+       Version 2.1, February 1999
+       https://github.com/iOSDevLog/ijkplayer/raw/master/LICENSE
                  LICENSE
                }
 
@@ -24,7 +24,7 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
   s.source       = { :http => "" }
   # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
 
-  s.vendored_frameworks = 'IJKMediaFrameworkWith.framework'
+  s.vendored_frameworks = 'IJKMediaFramework.framework'
 
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   s.libraries   = "bz2", "z", "stdc++"
