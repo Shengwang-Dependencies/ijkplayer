@@ -21,10 +21,11 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFramework.framework.zip" }
+  s.source       = { :http => "https://gitee.com/shengwang-dependencies/ijkplayer/blob/master/IJKMediaFramework.framework.zip" }
   # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
 
   s.vendored_frameworks = 'IJKMediaFrameworkWith.framework'
+  s.vendored_frameworks = "ijkplayer/IJKMediaFrameworkWith.framework"
 
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   s.libraries   = "bz2", "z", "stdc++"
